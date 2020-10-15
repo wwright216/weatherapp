@@ -1,0 +1,37 @@
+{
+  "name": "wadesweatherapp",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "mobx": "^6.0.1",
+    "mobx-react": "^7.0.0",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start .env.local, .env",
+    "build": "react-scripts build .env.production .env",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
